@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box; 
+ }
+ 
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+
+nav{
+    background: #333333;
+    height: 10vh;
+    display: flex;
+    box-shadow:5px 5px 5px 5px rgba(95, 95, 95, 0.69) ;
+    
+}
+.shortcuts{
+    display: flex;
+    border: solid 1px rgba(0, 213, 255, 0);
+     flex: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+     margin-left: 5vw;
+}
+h1{
+    border: solid 1px rgba(197, 204, 59, 0);
+    margin-right: 40% ;
+    padding-left: 10%;
+    color: #ffffff;
+  
+}
+    .logo{
+        border: solid 1px rgba(64, 0, 255, 0);
+    margin-left:20px ;
+    margin-top:20px ;
+    
+    position: fixed;
+}
+.shortcuts ul{
+    border: solid 1px rgba(255, 0, 230, 0);
+     display: flex;
+     justify-content: flex-end;
+     
+     padding-right: 5vw;
+     margin-top: 0%;
+     margin-bottom: 0%;
+     height: 10vh;
+    
+}
+.shortcuts li{
+    border: solid 1px rgba(255, 0, 0, 0);
+    margin-left: 20px;
+   
+    list-style-type: none;
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+    border-left:solid 1px #8c8c8c;
+    border-right:solid 1px #8c8c8c;
+    display: flex;
+    align-items: center;
+}
+.shortcuts a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 100%;
+   
+    
+    display: flex;
+    align-items: center;
+    border: solid 1px rgba(255, 238, 0, 0);
+  
+  }
+  
+  li:hover{
+    background-color: #ff5500;
+    color: #333333;
+  }
+  
+  footer{
+      background-color: aquamarine;
+  }
+
+
+
+
+section{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    background-color: #8c8c8c;
+    border: solid 1px rgba(153, 205, 50, 0);
+    height:650px;
+    
+}
+section .mainWlc{
+    width: fit-content;
+    border: solid 1px rgba(118, 56, 56, 0);
+    margin: auto;
+}
+section div{
+    width: fit-content;
+    margin: auto;
+    
+    
+}
+section .wlc{
+    border: solid 1px rgba(255, 0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    box-shadow:5px 5px 5px 5px rgba(95, 95, 95, 0.69) ;
+}
+section .crtAcc{
+    border: solid 1px rgba(68, 255, 0, 0);
+    margin-top: 5%;
+    background-color: #ff5500;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow:5px 5px 5px 5px rgba(95, 95, 95, 0.69) ;
+
+}
+section .lgin{
+    border: solid 1px rgba(43, 0, 255, 0);
+    background-color: #333333;
+    color: #ffffff;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow:5px 5px 5px 5px rgba(95, 95, 95, 0.69) ;
+    padding: 10px;
+}
+section a{
+    border: solid 1px rgba(69, 176, 192, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.crtAcc a{
+    color: #333333;
+}
+.lgin a{
+    color: #ffffff;
+}
+
+
+
+#courses{
+    background-color: #ffffff;
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+  
+.cours h2{
+    color: #ff5500;
+    margin-top: 50px;
+    border: solid 1px rgba(43, 0, 255, 0);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.cours .cards{
+    border: solid 1px rgba(43, 0, 255, 0);
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+
+.card1{
+    height: 60vh;
+    width: 20%;
+    background-color: #8c8c8c;
+    border-radius: 10px;
+}
+.card2{
+    height: 60vh;
+    width: 20%;
+    background-color: #8c8c8c;
+    border-radius: 10px;
+}
+.card3{
+    height: 60vh;
+    width: 20%;
+    background-color: #8c8c8c;
+    border-radius: 10px; 
+}
+.card3:hover{
+    box-shadow:5px 5px 5px 5px rgba(169, 169, 169, 0.69) ;
+    transition: 1;
+}
+.card2:hover{
+    box-shadow:5px 5px 5px 5px rgba(169, 169, 169, 0.69) ;
+    transition: 1;
+}
+.card1:hover{
+    box-shadow:5px 5px 5px 5px rgba(169, 169, 169, 0.69) ;
+    transition: 1;
+}
+
+.pic{
+    height: 70%;
+    border: solid 1px rgba(0, 0, 0, 0);
+    display: flex;
+}
+.disc{
+ background-color: #333333;
+ height: 30%;
+ display: flex;
+}
+
+
+.card1 img{
+    height: 70%;
+    margin: auto;
+}
+.card2 img{
+    height: 70%;
+    margin: auto;
+}
+.card3 img{
+    height: 70%;
+    margin: auto;
+}
+
+.text{
+    margin: auto;
+    color: #ffffff;
+}
+.card1 a{
+   text-decoration: none; 
+}
+.card2 a{
+    text-decoration: none; 
+ }
+ .card3 a{
+    text-decoration: none; 
+ }
+
+ .cr{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+ }
