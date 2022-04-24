@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" type="text/css" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <title>DevGate/JS</title>
+    <script>
+        
+        </script>
+</head>
+<body>
+    <nav>
+        <div><a href="https://www.linkedin.com/in/ahmedgharbi/" target="blank_" class="logo"><img src="../assets/logoDark.png" href="https://www.linkedin.com/in/ahmedgharbi/" class="logo" alt="Logo"  height="100vh" ></a></div>
+        <h1>DevGate</h1>
+        
+        <div class="shortcuts">
+            <ul>
+                <li><a href="../MainPage/index.html" target="blank_">Home</a></li>
+                <li><a href="../MainPage/index.html#courses" target="blank_">Courses</a></li>
+                <li><a href="../MainPage/index.html#contact" target="blank_">Contact</a></li>
+                <li><a href="../MainPage/index.html#login" target="blank_">Join</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+
+        
+    <div class="wrapper">
+        <div class="navigation">
+            <ol>
+                <li><a href="#html"><div>JavaScript</div></a></li>
+                <li><a href="#Plan"><div> Plan</div></a></li>
+                <li><a href="#Intro"><div> Introduction</div></a></li>
+                <li><a href="#balisesAtt"> <div>Variables</div></a></li>
+                <li><a href="#BalisesP"><div>Operateurs</div></a></li>
+                <li><a href="#courantes"><div>Structures Conditionelles</div></a></li>
+                <li><a href="#vid"><div> Video Explicatif</div></a></li>
+            </ol>
+        </div>
+    </div>
+        
+   
+        <div class="infoPage">
+  
+    
+            <div title="html" id="html">
+               <h1>Cours JavaScript</h1>
+            </div>
+            <div title="Plan" id="Plan">
+                <a href="#Plan"><h2><strong>Plan</strong></h2></a>
+                <ol>
+                    <li>Introduction</li>
+                    <li>Variables</li>
+                    <li>Operateurs</li>
+                    <li>Structures Conditionelles</li>
+                </ol>
+              <div class="navigTable">
+            </div>
+            </div>
+           
+            <div title="Introduction" id="Intro">
+    
+                <a href="#Intro"><h2><strong>Introduction</strong></h2></a>
+    
+                <p> JavaScript est un langage de programmation qui permet d'implémenter des mécanismes complexes sur une page web. À chaque fois qu'une page web fait plus que simplement afficher du contenu statique — afficher du contenu mis à jour à des temps déterminés, des cartes interactives, des animations 2D/3D, des menus vidéo défilants, ou autre, JavaScript a de bonnes chances d'être impliqué.
+                </p>
+                    
+            
+            </div>
+            <div title="Les balises html et leurs attributs" id="balisesAtt">
+                <h2>Variables</h2>
+               
+                <p>Une balise HTML est un élément de base du système de codage HTML utilisé, en grande partie, pour la création d'une page Web. Ce sont les balises HTML qui permettent de hiérarchiser et de structurer le contenu d'une page Web grâce à une mise en forme particulière </p> 
+                <div class="navigTable">
+                    <table class="standard-table" border="1" >
+                        <thead>
+                          <tr>
+                            <th scope="row">Variable</th>
+                            <th scope="col">Explication</th>
+                            <th scope="col">Exemple</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><a href="/fr/docs/Glossary/String">Chaîne de caractères</a></th>
+                            <td>
+                              Une suite de caractères connue sous le nom de chaîne. Pour indiquer que
+                              la valeur est une chaîne, il faut la placer entre guillemets.
+                            </td>
+                            <td><code>let myVariable = 'Bob';</code></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><a href="/fr/docs/Glossary/Number">Nombre</a></th>
+                            <td>Un nombre. Les nombres ne sont pas entre guillemets.</td>
+                            <td><code>let myVariable = 10;</code></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><a href="/fr/docs/Glossary/Boolean">Booléen</a></th>
+                            <td>
+                              Une valeur qui signifie vrai ou faux. <code>true</code>/<code>false</code>
+                              sont des mots-clés spéciaux en JS, ils n'ont pas besoin de guillemets.
+                            </td>
+                            <td><code>let myVariable = true;</code></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><a href="/fr/docs/Glossary/array">Tableau</a></th>
+                            <td>
+                              Une structure qui permet de stocker plusieurs valeurs dans une seule
+                              variable.
+                            </td>
+                            <td>
+                              <p><code>let myVariable = [1,'Bob','Étienne',10];</code><br>Référez‑vous à chaque élément du tableau ainsi <code>: myVariable[0]</code>, <code>myVariable[1]</code>, etc.</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><a href="/fr/docs/Glossary/Object">Objet</a></th>
+                            <td>
+                              À la base de toute chose. Tout est un objet en JavaScript et peut être
+                              stocké dans une variable. Gardez cela en mémoire tout au long de ce
+                              cours.
+                            </td>
+                            <td>
+                              <code>let myVariable = document.querySelector('h1'); </code>tous les
+                              exemples au dessus sont aussi des objets.
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+            </div>
+            </div>
+            
+            <div title="Les balises en pair" id="BalisesP">
+                <h2>Les Operateurs</h2>
+                
+                <div class="navigTable">
+                    <table class="standard-table" border="1">
+                        <thead>
+                          <tr>
+                            <th scope="col">Operateur</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col">But</th>
+                            <th scope="col">Exemple</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><code>+</code></td>
+                            <td>Addition</td>
+                            <td>Ajoute deux nombres.</td>
+                            <td><code>6 + 9</code></td>
+                          </tr>
+                          <tr>
+                            <td><code>-</code></td>
+                            <td>Soustraction</td>
+                            <td>Soustrait le nombre de droite de celui de gauche.</td>
+                            <td><code>20 - 15</code></td>
+                          </tr>
+                          <tr>
+                            <td><code>*</code></td>
+                            <td>Multiplication</td>
+                            <td>Multiplie les deux nombrer.</td>
+                            <td><code>3 * 7</code></td>
+                          </tr>
+                          <tr>
+                            <td><code>/</code></td>
+                            <td>Division</td>
+                            <td>Divise le nombre de gauche par celui de droite.</td>
+                            <td><code>10 / 5</code></td>
+                          </tr>
+                          <tr>
+                            <td><code>%</code></td>
+                            <td>
+                              <p>Reste (quelquefois nommé modulo)</p>
+                            </td>
+                            <td>
+                              <p>
+                                Renvoie le reste de la division du nombre de gauche par celui de
+                                droite.
+                              </p>
+                            </td>
+                            <td>
+                              <code>8 % 3</code> (renvoie 2, car 3 est contenu 2 fois dans 8, et il
+                              reste 2.)
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+            </div>
+            <div title=" Balises les plus courantes " id="courantes">
+                <h2>Les Structures Conditionelles</h2>
+                <p> ce sont les balises les plus utilisant dans les pages web
+                </p>
+                <div class="navigTable">
+                    <section aria-labelledby="structures_conditionnelles" class="conds"><div>
+                        <div class="code-example"><pre class="brush: js notranslate"><code><span class="token keyword">let</span> iceCream <span class="token operator">=</span> <span class="token string">'chocolat'</span><span class="token punctuation">;</span>
+                        <span class="token keyword">if</span> <span class="token punctuation">(</span>iceCream <span class="token operator">===</span> <span class="token string">'chocolat'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                          <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"J'adore la glace au chocolat !"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                          <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Ooooh, mais j'aurais préféré au chocolat."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token punctuation">}</span>
+                        </code></pre></div>
+                        <p>L'expression contenue dans <code>if ( ... )</code> correspond au test — Ici, on utilise l'opérateur d'égalité (décrit plus haut) pour comparer la variable iceCream avec la chaîne de caractères <code>chocolat</code> pour voir si elles sont égales. Si cette comparaison renvoie <code>true</code>, le premier bloc de code sera exécuté. Sinon, le premier bloc est sauté et c'est le code du second bloc, celui présent après <code>else</code>, qui est exécuté.</p></div></section>
+                        </div>
+                        <h2 id="vid">Resumé</h2>  
+            </div> 
+                     
+            <iframe width="887" height="499" src="https://www.youtube.com/embed/DHjqpvDnNGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        </section>
+
+
+
+
+</body>
+</html>
